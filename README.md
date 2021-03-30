@@ -23,7 +23,10 @@
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
-![Output of a test run](https://user-images.githubusercontent.com/9935013/113043663-0c77c180-919d-11eb-9e4d-ed69f2146949.png)
+* Output of a test run
+
+* Passing GitHub Actions build
+![Passing GitHub Actions build](https://user-images.githubusercontent.com/9935013/113043663-0c77c180-919d-11eb-9e4d-ed69f2146949.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
