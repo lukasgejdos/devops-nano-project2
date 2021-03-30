@@ -36,9 +36,10 @@ will respond with following JSON output:
 
 ## Project Plan
 You can find spreadsheet with project plan on this link:
+[📝 project-management.xlsx](https://github.com/lukasgejdos/devops-nano-project2/files/6232714/project-management.xlsx)
 
 Trello board for the project is located here:
-[Project board](https://trello.com/b/98M5XAQA/project-2)
+[📅 Project board](https://trello.com/b/98M5XAQA/project-2)
 
 ## Instructions
 
