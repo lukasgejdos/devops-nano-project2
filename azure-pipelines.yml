@@ -50,6 +50,7 @@ stages:
     - script: |
         python -m venv antenv
         source antenv/bin/activate
+        pip install pylint
         pylint --disable=R,C,W1203 app.
       workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
