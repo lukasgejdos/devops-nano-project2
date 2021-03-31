@@ -36,17 +36,16 @@ will respond with following JSON output:
 
 ## Project Plan
 You can find spreadsheet with project plan on this link:
-[📝 project-management.xlsx](https://github.com/lukasgejdos/devops-nano-project2/files/6232714/project-management.xlsx)
+[📝 Project management](https://github.com/lukasgejdos/devops-nano-project2/files/6234505/project-management.xlsx)
 
 Trello board for the project is located here:
 [📅 Project board](https://trello.com/b/98M5XAQA/project-2)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+### Architectural Diagram
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+### Instructions for running the Python project
 
 * Project running on Azure App Service
 ![project-running-azure-app-service](https://user-images.githubusercontent.com/9935013/113045994-cbcd7780-919f-11eb-8027-34ec64069a00.png)
@@ -75,7 +74,6 @@ Trello board for the project is located here:
 * Output of streamed log files from deployed application
 ![logs](https://user-images.githubusercontent.com/9935013/113045956-bfe1b580-919f-11eb-93b3-8a13fbe201ef.png)
 
-> 
 
 ## Enhancements
 
