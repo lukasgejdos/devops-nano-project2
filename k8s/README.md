@@ -6,6 +6,7 @@ For better integration of Flask app as microservice in the suite, we have create
 
 First, you need to setup Kubernetes cluster. For Kubernetes managed service in Azure, check following guide: 
 [Tutorial: Deploy an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster)
+
 Alongside, you need Container Registry in Azure (or alternatively other option like Docker Hub). For Azure Container Registry, check following:
 [Tutorial: Deploy and use Azure Container Registry](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-acr)
 
