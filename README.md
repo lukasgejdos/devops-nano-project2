@@ -52,7 +52,8 @@ Trello board for the project is located here:
 ```sh
 git clone git@github.com:lukasgejdos/devops-nano-project2.git 
 ```
-![git-clone](https://user-images.githubusercontent.com/9935013/113044335-ca9b4b00-919d-11eb-92b8-e866835bb987.png)
+> ![git-clone](https://user-images.githubusercontent.com/9935013/113044335-ca9b4b00-919d-11eb-92b8-e866835bb987.png)
+> 
 > Project cloned into Azure Cloud Shell
 3. Change directory to cloned project `devops-nano-project2`
 ```sh
@@ -81,7 +82,7 @@ sh ./make_prediction.sh
 ![azure-cloud-shell-test-run2](https://user-images.githubusercontent.com/9935013/113122434-e9d4bf80-9213-11eb-9425-778465037668.png)
 > Output of a test run
 7. You can deploy application to Azure App Service with following command:
-```az
+```azurecli
 az webapp up -n flaskml-lg --sku F1
 ```
 ![project-running-azure-app-service](https://user-images.githubusercontent.com/9935013/113045994-cbcd7780-919f-11eb-8027-34ec64069a00.png)
