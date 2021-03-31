@@ -46,21 +46,48 @@ Trello board for the project is located here:
 ### Architectural Diagram
 ![architecture-diagram](https://user-images.githubusercontent.com/9935013/113122389-dd506700-9213-11eb-9c0e-08bff5e14329.png)
 
-### Instructions for running the Python project
-* Project cloned into Azure Cloud Shell
+### Instructions for running the Python project in Azure Cloud Shell
+1. Open Azure Cloud Shell session
+2. Clone project into your working directory
+```sh
+git clone git@github.com:lukasgejdos/devops-nano-project2.git 
+```
 ![git-clone](https://user-images.githubusercontent.com/9935013/113044335-ca9b4b00-919d-11eb-92b8-e866835bb987.png)
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+> Project cloned into Azure Cloud Shell
+3. Change directory to cloned project `devops-nano-project2`
+```sh
+cd devops-nano-project2
+```
+4. To enable virtual environment, run following command from `Makefile` and `source` command:
+```sh
+make setup
+source ~/.udacity-devops/bin/activate
+```
+5. To install dependencies, lint code and run tests, use following command:
+```sh
+make all
+```
 ![make-all-tests](https://user-images.githubusercontent.com/9935013/113044372-d6870d00-919d-11eb-8c81-cfedf1dadc13.png)
-
-* Output of a test run
+> Passing tests that are displayed after running the `make all` command from the `Makefile`
+6. Start the application
+```sh
+python3 app.py
+```
+Application should start serving on port `5000`. In new Azure Cloud Shell session, you can reach it on http://localhost:5000. To test it, execute following script:
+```sh
+sh ./make_prediction.sh
+```
 ![azure-cloud-shell-test-run1](https://user-images.githubusercontent.com/9935013/113122432-e93c2900-9213-11eb-8f7f-7fa049ff70ad.png)
 ![azure-cloud-shell-test-run2](https://user-images.githubusercontent.com/9935013/113122434-e9d4bf80-9213-11eb-9425-778465037668.png)
-
-* Project running on Azure App Service
+> Output of a test run
+7. You can deploy application to Azure App Service with following command:
+```az
+az webapp up -n flaskml-lg --sku F1
+```
 ![project-running-azure-app-service](https://user-images.githubusercontent.com/9935013/113045994-cbcd7780-919f-11eb-8027-34ec64069a00.png)
+> Project running on Azure App Service
+After successful deployment you can browse to app ULR `https://flaskml-lg.azurewebsites.net/` and check, if it is running:
 ![running-app-from-code](https://user-images.githubusercontent.com/9935013/113055330-c3c70500-91aa-11eb-9e6b-2f718255b6ee.png)
-
 
 ### Instructions for CI/CD
 
