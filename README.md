@@ -145,5 +145,6 @@ There is a lot of space for improvements:
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+You can watch demo here (preferably at 1.25 speed :)
+📺 [https://youtu.be/_TC8oVeOGuI](https://youtu.be/_TC8oVeOGuI)
 
