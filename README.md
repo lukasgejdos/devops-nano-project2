@@ -133,6 +133,13 @@ It should output something like:
 > 
 > Output of streamed log files from deployed application
 
+## Load test
+
+We have performed load test by Locust. It uses `locustfile.py` located in the source root. Results are following:
+
+> ![locust](https://user-images.githubusercontent.com/9935013/113213052-e70bb600-9277-11eb-9ecd-fc3a6d5adb14.png)
+> 
+> Load test performed by Locust
 
 ## Enhancements
 
