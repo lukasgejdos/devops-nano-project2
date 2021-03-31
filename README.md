@@ -44,18 +44,25 @@ Trello board for the project is located here:
 ## Instructions
 
 ### Architectural Diagram
+![architecture-diagram](https://user-images.githubusercontent.com/9935013/113122389-dd506700-9213-11eb-9c0e-08bff5e14329.png)
 
 ### Instructions for running the Python project
-
-* Project running on Azure App Service
-![project-running-azure-app-service](https://user-images.githubusercontent.com/9935013/113045994-cbcd7780-919f-11eb-8027-34ec64069a00.png)
-![running-app-from-code](https://user-images.githubusercontent.com/9935013/113055330-c3c70500-91aa-11eb-9e6b-2f718255b6ee.png)
-
 * Project cloned into Azure Cloud Shell
 ![git-clone](https://user-images.githubusercontent.com/9935013/113044335-ca9b4b00-919d-11eb-92b8-e866835bb987.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 ![make-all-tests](https://user-images.githubusercontent.com/9935013/113044372-d6870d00-919d-11eb-8c81-cfedf1dadc13.png)
+
+* Output of a test run
+![azure-cloud-shell-test-run1](https://user-images.githubusercontent.com/9935013/113122432-e93c2900-9213-11eb-8f7f-7fa049ff70ad.png)
+![azure-cloud-shell-test-run2](https://user-images.githubusercontent.com/9935013/113122434-e9d4bf80-9213-11eb-9425-778465037668.png)
+
+* Project running on Azure App Service
+![project-running-azure-app-service](https://user-images.githubusercontent.com/9935013/113045994-cbcd7780-919f-11eb-8027-34ec64069a00.png)
+![running-app-from-code](https://user-images.githubusercontent.com/9935013/113055330-c3c70500-91aa-11eb-9e6b-2f718255b6ee.png)
+
+
+### Instructions for CI/CD
 
 * Passing GitHub Actions build
 ![git-actions-build](https://user-images.githubusercontent.com/9935013/113054608-e60c5300-91a9-11eb-8ab4-2f8eeb1a06cb.png)
@@ -68,8 +75,9 @@ Trello board for the project is located here:
 * Running Azure App Service from Azure Pipelines automatic deployment
 ![running-app-from-ado](https://user-images.githubusercontent.com/9935013/113055323-c32e6e80-91aa-11eb-881d-6260acc96351.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+* Successful prediction from deployed flask app in Azure Cloud Shell.  
 ![make-predict-output](https://user-images.githubusercontent.com/9935013/113045985-c8d28700-919f-11eb-9a11-cd9b91e82077.png)
+[Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 
 * Output of streamed log files from deployed application
 ![logs](https://user-images.githubusercontent.com/9935013/113045956-bfe1b580-919f-11eb-93b3-8a13fbe201ef.png)
@@ -77,7 +85,12 @@ Trello board for the project is located here:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+There is a lot of space for improvements:
+* Implement monitoring f.e. using Azure Monitor
+* Improve logging using Azure App Insights or Log Analytics, implement Alerts 
+* Performance tests	
+* Consider releasing Docker / K8S PoC to production
+* Create nice Vue frontend
 
 ## Demo 
 
