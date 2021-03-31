@@ -91,7 +91,7 @@ az webapp up -n flaskml-lg --sku F1
 > 
 > Project running on Azure App Service
 
-After successful deployment you can browse to app ULR `https://flaskml-lg.azurewebsites.net/` and check, if it is running:
+After successful deployment you can browse to app ULR [https://flaskml-lg.azurewebsites.net](https://flaskml-lg.azurewebsites.net) and check, if it is running:
 > ![running-app-from-code](https://user-images.githubusercontent.com/9935013/113055330-c3c70500-91aa-11eb-9e6b-2f718255b6ee.png)
 
 ### Instructions for CI/CD
@@ -114,7 +114,7 @@ cat ~/.ssh/id_ed25519.pub
 
 [Official documentation of Python Webapp CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
-5. After successful deployment, app should be running on `https://flaskml-lg.azurewebsites.net` and you can see the change in the message:
+5. After successful deployment, app should be running on [https://flaskml-lg.azurewebsites.net](https://flaskml-lg.azurewebsites.net) and you can see the change in the message:
 > ![running-app-from-ado](https://user-images.githubusercontent.com/9935013/113055323-c32e6e80-91aa-11eb-881d-6260acc96351.png)
 > 
 > Running Azure App Service from Azure Pipelines after automatic deployment
