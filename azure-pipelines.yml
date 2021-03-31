@@ -50,10 +50,17 @@ stages:
     - script: |
         python -m venv antenv
         source antenv/bin/activate
-        pylint --disable=R,C,W1203,W0702,E0401 app.py # make lint
-        python -m pytest -vv test_app.py # make test
+        pylint --disable=R,C,W1203,W0702,E0401 app.py
+        python -m pytest -vv test_app.py
       workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
+
+#    - script: |
+#        python -m venv antenv
+#        source antenv/bin/activate
+#        make all
+#      workingDirectory: $(projectRoot)
+#      displayName: 'Run lint tests'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
