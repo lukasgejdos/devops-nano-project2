@@ -36,7 +36,7 @@ will respond with following JSON output:
 
 ## Project Plan
 You can find spreadsheet with project plan on this link:
-[📝 Project management](https://github.com/lukasgejdos/devops-nano-project2/files/6234505/project-management.xlsx)
+[📝 Project management](https://github.com/lukasgejdos/devops-nano-project2/files/6234685/project-management.xlsx)
 
 Trello board for the project is located here:
 [📅 Project board](https://trello.com/b/98M5XAQA/project-2)
